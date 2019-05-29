@@ -3,8 +3,10 @@ package com.hargun.college;
 import java.util.Date;
 
 import com.hargun.hardware.Computer;
+import com.hargun.other.IDisplay;
 
-public class Person {
+
+public abstract class Person implements IDisplay{
     private int id;
     private String firstName;
     private String lastName;
@@ -63,5 +65,10 @@ public class Person {
     public String getFullName()
     {
         return this.firstName+" "+this.lastName;
+    }
+
+    @Override
+    public void dislay() {
+
     }
 }

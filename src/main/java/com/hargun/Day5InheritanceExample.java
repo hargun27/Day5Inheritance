@@ -2,6 +2,7 @@ package com.hargun;
 
 import com.hargun.college.Student;
 import com.hargun.college.Faculty;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -22,6 +23,7 @@ public class Day5InheritanceExample {
         }
 
         Faculty f1=new Faculty();
+
 
     }
 }
